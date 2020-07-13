@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hiện thị nội dụng theo dạng bảng</title>
+</head>
+
+<body>
+    <h1>thẻ hiển thị nội dung theo bảng</h1>
+    <table border="2">
+        <!-- dùng thẻ thead để căn dữa tiêu đề -->
+        <!-- lưu ý khi dung thead ta chuyên "td" thành "th" để các phần tử được bôi đậm  -->
+        <caption>bảng thông tin gia súc</caption>
+        <!-- thẻ caption dùng để thêm tên cho bảng  -->
+        <thead>
+            <tr>
+                <th>tên</th>
+                <th>số lượng</th>
+                <th>mã sản phẩm</th>
+
+            </tr>
+        </thead>
+
+        <!-- dùng tbody để căn chỉnh phần thân -->
+        <tbody>
+            <tr>
+                <td>heo</td>
+                <td>20 </td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td>bò</td>
+                <td>50</td>
+                <td>114</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table border="1">
+        <!-- border dùng để định dạng thuộc tính bảng ,cho hiện thị đam hoặc nhạt -->
+        <!-- tr là hàng còn td là cột -->
+
+    </table>
+    <table border="2">
+        <tr>
+            <td>tên</td>
+            <td>số lượng</td>
+            <td>mã sản phẩm</td>
+
+        </tr>
+        <tr>
+            <td>heo</td>
+            <td>20 </td>
+            <td>113</td>
+        </tr>
+        <tr>
+            <td>bò</td>
+            <td>50</td>
+            <td>114</td>
+        </tr>
+
+    </table><br>
+    <table border="2">
+        <!-- colspan để nhóm cột, rowspan để nhóm hàng -->
+        <tr>
+            <td colspan="2">hang 1 cột 1</td>
+            <td>hàng 1 cột 2</td>
+
+        </tr>
+        <tr>
+            <td>hàng 2 cột 1</td>
+            <td>hàng 2 cột 2</td>
+            <td>hàng 2 cột 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">hàng 3 cột 1</td>
+            <td>hàng 3 cột 2</td>
+            <td>hàng 3 cột 3</td>
+        </tr>
+        <tr>
+            <td>hàng 4 cột 1</td>
+            <td>hàng 4 cột 2</td>
+        </tr>
+    </table>
+</body>
+
+</html>

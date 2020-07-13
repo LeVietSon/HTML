@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input hidden</title>
+</head>
+
+<body>
+    <h1>input hidden</h1>
+    <form action="">
+        <label for="email">email</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="amount">số lượng:</label><br>
+        <!-- amount là số lượng lựa chọn -->
+        <input type="number" min="1" max="10" id="amount"><br>  
+        <!-- nếu muốn cho người dùng chọn một khoảng cụ thể ta thêm min và max vào <input> -->
+        <input type="hideen" name="redirect-to" value="http://unitop.vn">
+        <!-- nếu không muốn người dùng nhập vào thì ta khai báo name="redirect-to" và cần tạo ra giá trị mặc định cho nó ví dụ value="http://........" -->
+    </form>
+</body>
+
+</html>
